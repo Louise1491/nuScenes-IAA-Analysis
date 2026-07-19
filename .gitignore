@@ -1,0 +1,4 @@
+data/
+venv/
+notebooks/
+nuscenes_tutorial.ipynb
