@@ -64,7 +64,7 @@ real dual-annotator AV datasets (median IoU 0.7–0.9). The initial value
 (σ = 0.20m) produced a median IoU of 0.68 — below target, with 30.6% 
 of annotation pairs below 0.5. After one calibration iteration, 
 σ = 0.12m yielded a median IoU of 0.768, with IoU < 0.5 dropping to 
-14.6%. This value was locked as the final parameter.
+14.9%. This value was locked as the final parameter.
 
 ### 2.4 Metrics
 **BEV IoU** (Bird's Eye View, x-y plane projection) was selected over 
@@ -179,7 +179,7 @@ This section distinguishes what the framework reliably demonstrates
 from what requires real multi-annotator data to validate.
 
 **L1 — Kappa reflects simulation parameters, not discovered disagreement.**
-Cohen's Kappa = 0.936 is largely an echo of the 5% confusion rate 
+Cohen's Kappa = 0.934 is largely an echo of the 5% confusion rate 
 built into the simulation: 95% of category assignments are identical 
 by construction, compressing the chance-agreement correction. 
 The pipeline is valid; the Kappa number should not be interpreted 
